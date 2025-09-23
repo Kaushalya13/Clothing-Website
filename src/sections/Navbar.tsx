@@ -63,14 +63,6 @@ export default function Navbar() {
                     className="filter invert"
                   />
                 </div>
-                <div className="hidden md:flex gap-3">
-                  <Button variant="secondary" className="flex items-center gap-2">
-                    🛒 Cart
-                  </Button>
-                  <Button variant="primary" className="flex items-center gap-2">
-                    👤 Account
-                  </Button>
-                </div>
               </div>
             </div>
 
@@ -93,14 +85,6 @@ export default function Navbar() {
                         {link.label}
                       </a>
                     ))}
-                    <div className="flex gap-3">
-                      <Button variant="secondary" className="flex items-center gap-2">
-                        🛒 Cart
-                      </Button>
-                      <Button variant="primary" className="flex items-center gap-2">
-                        👤 Account
-                      </Button>
-                    </div>
                   </div>
                 </motion.div>
               )}
